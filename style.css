@@ -31,3 +31,13 @@ img{
     font-size: 20px;
     
 }
+
+table , th, td{
+    border: 2px solid;
+    border-collapse: collapse;
+    padding: 20px;
+    width: 150px;
+    margin-top: 20px;
+    
+   
+}
