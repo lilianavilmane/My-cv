@@ -1,15 +1,33 @@
-h1{
-    text-align: center;
+.nav-title{
+    margin-right: auto;
     font-size: 50px;
     color: black;
 }
 
 .nav {
-    text-align: center;
-    word-spacing: 8px;
-    color: black;
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px ;   
+    
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+
+
+}
+.nav-links{
+    margin-right: auto;
     font-size: 25px;
-   
+    
+}
+
+header li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
 }
 
 img{
