@@ -4,13 +4,12 @@ h1{
     color: black;
 }
 
-.nav{
-    text-align: left;
+.nav {
+    text-align: center;
     word-spacing: 8px;
     color: black;
     font-size: 25px;
-    
-
+   
 }
 
 img{
