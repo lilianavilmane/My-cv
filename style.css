@@ -1,34 +1,101 @@
-h1{
-    text-align: center;
-    font-size: 50px;
+
+.nav-title{
+    font-size: 8vh;
     color: black;
+    padding: 15px;
+    display: flex;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 15px;
+
 }
 
-.nav{
-    text-align: left;
-    word-spacing: 8px;
-    color: black;
+.nav ul {
+    padding: 0;
+    margin: 0;
+   display: flex;
+   justify-content: end;
+    text-align: right;
+    vertical-align: top;
+    
+    
+}
+header{
+   background-image: url(https://cdn.pixabay.com/photo/2016/04/06/10/08/pink-1311251__480.jpg);
+   display: block;
+   background-size: cover;
+   font-family: 'Work Sans', sans-serif;
+   
+  
+   
+}
+
+.nav-links{
+    margin-right: 20px;
+    display: flex;
+    vertical-align: top;
+    height: 80px;
+    line-height: 80px;
     font-size: 25px;
+    color:    #333;
+    font-weight: 800;
     
 
+    
+    
+}
+.headerli{
+    list-style: none;
+    display: inline-block;
+    
+}
+.nav-links:hover{
+    color: pink;
+
 }
 
+
+
 img{
-    border-radius: 100px;
-    width: 300px;
+    border-radius: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
     height: 300px;
-    padding: 50px;
-    margin-left: 450px;
+    align-items: center;
+    
   
+}
+.btn{
+    
+    margin: 20px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    font-size: 12px;
+    padding: 1.3em 3em;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);    
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
 }
 
 .text{
-    text-align: left;
-    font-size: 18px;
-}
-
-.info{
-    font-size: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
     
 }
 
@@ -40,4 +107,14 @@ table , th, td{
     margin-top: 20px;
     
    
+}
+
+
+.icon{
+    text-align: center;
+    font-size: large;
+}
+.material-icons {
+    size: 15px;
+    float: right;
 }
