@@ -1,71 +1,102 @@
-body{
-    font-family: 'Work Sans', sans-serif;
-    
-}
+
 .nav-title{
-    margin-right: auto;
-    font-size: 50px;
+    font-size: 8vh;
     color: black;
-    position: relative;
-    text-align: right;
-  
+    padding: 15px;
+    display: flex;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 15px;
+
 }
 
-.nav {
-    list-style: none;
-    display: inline-block;
-    padding: 0 20px ;   
+.nav ul {
+    padding: 0;
+    margin: 0;
+   display: flex;
+   justify-content: end;
+    text-align: right;
+    vertical-align: top;
+    
     
 }
 header{
-    display: flex;
-    justify-content: flex-end;
    
-    
-    background-color: rgb(161, 225, 230);
-    
-    
-
-
+   background-image:  url(https://pcvector.net/uploads/posts/2018-08/1533326959_low-poly-background-generator-min.png);
+   width: auto;
+   height: auto;
+   font-family: 'Work Sans', sans-serif;
+  
+   
 }
+
 .nav-links{
-    margin-right: auto;
+    margin-right: 20px;
+    display: flex;
+    vertical-align: top;
+    height: 80px;
+    line-height: 80px;
     font-size: 25px;
     color:    #333;
-    text-align: right;
+    font-weight: 800;
+    
+
+    
     
 }
-
+.headerli{
+    list-style: none;
+    display: inline-block;
+    
+}
 .nav-links:hover{
     color: pink;
 
 }
 
-header li{
-    list-style: none;
-   display: inline-block;
-    padding: 0 20px;
-}
+
 
 img{
-    border-radius: 50% ;
-    margin: 45px;
-    padding: 60px;
-    width: 200px;
-    background-color: rgb(161, 225, 230);
+    border-radius: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 300px;
+    align-items: center;
+    
   
 }
 .btn{
-    color: #333;
+    
     margin: 20px;
     width: 100px;
-
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    font-size: 12px;
+    padding: 1.3em 3em;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);    
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
 }
 
 .text{
     text-align: center;
     font-size: 25px;
+    font-weight: 800;
+    
 }
 
 table , th, td{
@@ -76,4 +107,14 @@ table , th, td{
     margin-top: 20px;
     
    
+}
+
+
+.icon{
+    text-align: center;
+    font-size: large;
+}
+.material-icons {
+    size: 15px;
+    float: right;
 }
