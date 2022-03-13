@@ -23,11 +23,11 @@
     
 }
 header{
-   
-   background-image:  url(https://pcvector.net/uploads/posts/2018-08/1533326959_low-poly-background-generator-min.png);
-   width: auto;
-   height: auto;
+   background-image: url(https://cdn.pixabay.com/photo/2016/04/06/10/08/pink-1311251__480.jpg);
+   display: block;
+   background-size: cover;
    font-family: 'Work Sans', sans-serif;
+   
   
    
 }
