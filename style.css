@@ -1,12 +1,17 @@
-
+body{
+    margin: 0;
+    padding: 0 ;
+    
+    
+}
 .nav-title{
-    font-size: 5vh;
+    font-size: 7vh;
     color: black;
     width: 100px;
     height: 50px;
-    margin-right: 20px;
-    margin-top: 15px;
-    margin: 0;
+    padding: 10px;
+    margin-top: 0;
+    
 
 }
 
@@ -23,6 +28,7 @@ header{
    display: block;
    background-size: cover;
    font-family: 'Work Sans', sans-serif;
+   
    
   
    
@@ -47,10 +53,7 @@ header{
     display: inline-block;
     
 }
-.nav-links:hover{
-    color: pink;
 
-}
 
 
 
@@ -67,9 +70,10 @@ img{
 
 iframe{
     width: 100%;
+   text-align: center;
     border-style: none;
     border: none;
-    padding: 20px;
+    
 }
 
 .iframe{
@@ -82,7 +86,6 @@ iframe{
 
 
 .btn{
-    
     margin: 20px;
     width: 100px;
     display: block;
@@ -124,7 +127,11 @@ table , th, td{
 
 .icon{
     text-align: center;
-    font-size: large;
+    font-size: 1.5em;
+    color: #000;
+    word-spacing: 10px;
+    text-decoration: none;
+    
 }
 .material-icons {
     size: 15px;
