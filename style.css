@@ -24,7 +24,7 @@ body{
     
 }
 header{
-   background-image: url(https://cdn.pixabay.com/photo/2016/04/06/10/08/pink-1311251__480.jpg);
+   background-image: url(https://oir.mobi/uploads/posts/2021-01/thumbs/1611848280_43-p-bledno-rozovii-fon-dlya-fotoshopa-45.jpg);
    display: block;
    background-size: cover;
    font-family: 'Work Sans', sans-serif;
@@ -69,19 +69,19 @@ img{
 }
 
 iframe{
+    
     width: 100%;
-   text-align: center;
     border-style: none;
     border: none;
-    
+    font-family: 'Work Sans', sans-serif;   
 }
 
 .iframe{
+    padding-top: 20px;
     list-style-position: inside;
     text-align: center;
     font-size: 20px;
-    font-family: 'Work Sans', sans-serif;    
-    
+     
 }
 
 
@@ -91,7 +91,6 @@ iframe{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
     font-size: 12px;
     padding: 1.3em 3em;
     text-transform: uppercase;
@@ -102,7 +101,6 @@ iframe{
     border: none;
     border-radius: 45px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);    
-    transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
 }
@@ -118,9 +116,10 @@ table , th, td{
     border: 2px solid;
     border-collapse: collapse;
     padding: 20px;
-    width: 150px;
+    width: 100px;
     margin-top: 20px;
-    
+    margin-left: auto;
+    margin-right: auto;
    
 }
 
@@ -131,6 +130,7 @@ table , th, td{
     color: #000;
     word-spacing: 10px;
     text-decoration: none;
+    padding-bottom: 10px;
     
 }
 .material-icons {
