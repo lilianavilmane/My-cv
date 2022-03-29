@@ -1,51 +1,92 @@
 <!DOCTYPE html>
 <html lang="eng">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
-        <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>CV</title>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
     <style>
-        @media screen and (max-width: 750px), screen and (orientation: portrait){}
+        @media screen and (max-width: 750px),
+        screen and (orientation: portrait) {}
     </style>
 </head>
+
 <body>
     <header>
         <div class="header">
-            <h1 class="nav-title">Liliana Vilmane</h1> 
-        <nav>
-            <div class="nav">
-                <ul>
-                    <li class="headerli"><a class="nav-links" href="aboutme.html" target="content">About me</a></li>
-                    <li class="headerli"><a class="nav-links" href="skills.html" target="content">Skills</a></li>
-                    <li class="headerli"><a class="nav-links" href="experience.html" target="content">Experience</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-         <div class="img">
-            <img src="img.jpeg" alt="photo">
-                 <div class="text">
+            <h1 class="nav-title">Liliana Vilmane</h1>
+            <nav>
+                <div class="nav">
+                    <ul>
+                        <li class="headerli"><a class="nav-links" href="#aboutme">About me</a></li>
+                        <li class="headerli"><a class="nav-links" href="#experience">Skills</a></li>
+                        <li class="headerli"><a class="nav-links" href="#skills">Experience</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="background">
+            <div class="img">
+                <img src="img.jpeg" alt="photo">
+                <div class="text">
                     <p>Junior Web developer</p>
                 </div>
                 <div class="button">
-                     <button class="btn " type="button"> CV</button>
-                     <button class="btn " type="button">Hire me</button>
+                    <button class="btn " type="button"> CV</button>
+                    <button class="btn " type="button">Hire me</button>
                 </div>
                 <div class="icon">
                     <a href="https://www.facebook.com/liljuha8" class="fa fa-facebook icon"></a>
-                    <a href="https://www.instagram.com/lilianavilmane/" class="fa fa-instagram icon"></a> 
-                    <a href="#" class="fa fa-linkedin icon"></a>   
+                    <a href="https://www.instagram.com/lilianavilmane/" class="fa fa-instagram icon"></a>
+                    <a href="#" class="fa fa-linkedin icon"></a>
                 </div>
-        </header>
-    </div class="iframe">
-         <iframe src="aboutme.html" name="content" >Skills</iframe>
-     <div >
+            </div>
+    </header>
+
+    <div id="aboutme">
+        <p>
+            My name is Liliana. Im 22 years old. I have 2 profesional education.
+            I graduated from cosmetology college and I am a restaurant specialist.
+            Now i am studiyng to became a web developer.</p>
+    </div>
+    <div id="experience">
+        <ul>
+            <li>Youtube</li>
+            <li>Riga coding school</li>
+            <li>udemy.com</li>
+        </ul>
+    </div>
+    <div id="skills">
+        <ul>
+            <li>Youtube</li>
+            <li>Riga coding school</li>
+            <li>udemy.com</li>
+        </ul>
+    </div>
+    <div class="border">
+        <h2 class="h2">Job experience</h2>
+        <ul class="job">
+            <li>
+                Cook
+            </li>
+            <p>Vel Vairak Saules 03/07/2016 – 23/10/2016</p>
+            <li>
+                Waitress
+            </li>
+            <p>Vel Vairak saules 04/08/2017 – 10/06/2020 </p>
+            <li>Nail specialist</li>
+            <p>In.Beauty salon 19/06/2019 – 02/06/2021</p>
+        </ul>
+    </div>
+    <div>
         <table>
             <tr>
                 <th> Language</th>
@@ -53,17 +94,18 @@
             </tr>
             <tr>
                 <td> English</td>
-                <td>Intermediate</td> 
+                <td>Intermediate</td>
             </tr>
             <tr>
                 <td>Latvian</td>
                 <td>Proficient</td>
             </tr>
-             <tr>
+            <tr>
                 <td>Russian</td>
                 <td>Native</td>
             </tr>
         </table>
     </div>
 </body>
+
 </html>
