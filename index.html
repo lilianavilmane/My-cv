@@ -5,35 +5,32 @@
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Prata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>CV</title>
-    <style>
-
+    <!-- <style>
         @media screen and (max-width: 750px) and (min-width:400px),
         screen and (orientation: portrait) {}
-    </style>
+    
+    </style> -->
 </head>
 
 <body>
     <header>
-        <div class="header">
-            <h1 class="nav-title">Liliana Vilmane</h1>
             <nav>
                 <div class="nav">
+                    <h1 class="nav-title">Liliana Vilmane</h1>
                     <ul>
                         <li class="headerli"><a class="nav-links" href="#aboutme">About me</a></li>
                         <li class="headerli"><a class="nav-links" href="#experience">Skills</a></li>
                         <li class="headerli"><a class="nav-links" href="#skills">Experience</a>
+                        <li class="headerli"><a class="nav-links" href="#info">Contacts</a>
                         </li>
                     </ul>
                 </div>
             </nav>
-        </div>
-
         <div class="background">
             <div class="img">
                 <img src="img.jpeg" alt="photo">
@@ -42,28 +39,49 @@
                 </div>
                 <div class="button">
                     <button class="btn " type="button"> CV</button>
-                    <button class="btn " type="button">Hire me</button>
+                    <button class="btn " type="button"> email </button>
                 </div>
                 <div class="icon">
                     <a href="https://www.facebook.com/liljuha8" class="fa fa-facebook icon"></a>
                     <a href="https://www.instagram.com/lilianavilmane/" class="fa fa-instagram icon"></a>
                     <a href="#" class="fa fa-linkedin icon"></a>
                 </div>
+                
             </div>
     </header>
-
+<main class="main">
     <div class="aboutme" id="aboutme">
-        <h2 style="font-size: 35px;">ABOUT ME</h2>
+        <h2 style="font-size: 35px;">ABOUT </h2>
         <p>
-           <i> My name is Liliana. Im 22 years old. I have 2 profesional education.
+            My name is Liliana.  I have 2 profesional education.
             I graduated from cosmetology college and I am a restaurant specialist.
             Now i am studiyng to became a web developer. I am sociable and ready to work in a team. 
-            I try to learn quickly and i am ready to learn something new.</i>
+            I try to learn quickly and i am ready to learn something new.
         </p>
+        <hr>
+        <p style="font-weight: bold; font-size: 35px;">Basic Information</p>
+       <ul>
+           <li>Name : Liliana </li>
+           <li>Age : 22</li>
+           <li>Location : Latvia, Riga</li>
+       </ul>
     </div>
+    <div class="edu">
+        <h2>Experiences</h2>
+        <hr>
+        <ul class="edu">
+            <li style="font-size: 35px;">Education and training</li>
+            <li> Riga Trade vocational secondary school <br> 01/09/2014 – 26/06/2018</li>
+            <li> Restaurant Services business employee</li>
+            <li> International college of Cosmetology <br>01/09/2018 - 22/01/2022</li>
+            <li>Aesthetic Cosmetology</li>
+        </ul>
+    </div>
+
+
     <div class="experience" id="experience">
         <h2 style="font-size: 35px;">EXPERIENCE</h2>
-        <ul>
+        <ul class="experience">
             <li>Youtube</li>
             <li>Riga coding school</li>
             <li>udemy.com</li>
@@ -71,7 +89,7 @@
     </div>
     <div class="skills" id="skills">
         <h2 style="font-size: 35px;">SKILLS</h2>
-        <ul>
+        <ul class="skills">
             <li> HTML</li>
           <li>CSS</li>
           <li>GIT</li>
@@ -85,10 +103,13 @@
                 <b> Cook</b>
             </li>
             <p>Vel Vairak Saules 03/07/2016 – 23/10/2016</p>
+            <hr>
             <li>
                <b> Waitress</b>
+              
             </li>
             <p>Vel Vairak saules 04/08/2017 – 10/06/2020 </p>
+            <hr>
             <b>Nail specialist</b>
             <p>In.Beauty salon 19/06/2019 – 02/06/2021</p>
         </ul>
@@ -113,6 +134,14 @@
             </tr>
         </table>
     </div>
+    <footer >
+    <div id="info" class="info">
+        <p>Let's work together :</p>
+        <p>  Email: vilmaneliliana@gmail.com  </p>
+        <p> Mob phone : + 371 25 407 604</p>
+    </footer>
+    </div>
+</main>
 </body>
 
 </html>
