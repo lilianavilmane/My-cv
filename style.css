@@ -11,32 +11,38 @@ body {
 }
 
 
+span{
+    color: pink;
+    display: inline-block;
+}
 
 
-
-.nav-title {
+.logo {
     font-size: 35px;
-    font-family: 'Prata', serif;
+    font-family: 'Fredoka One', cursive;
     color: black;
     width: 100px;
     height: 50px;
     padding: 20px;
     margin-top: 0;
-    margin-left: 25px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    display: inline-block;
     
-   
-
-
 }
 
-
-
-.nav ul {
+nav{
     display: flex;
-    justify-content: space-evenly;
-    text-align: right;
-    vertical-align: top;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+.nav ul li {
     font-family: 'Fredoka', sans-serif;
+    padding: 10px 25px;
     
 
 }
@@ -44,27 +50,22 @@ body {
 
 
 header {
-   
-    display: block;
     background-size: cover;
     background-color: #A9C9FF;
-background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
-
-    
-
-
-
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
 
 }
 
 .nav-links {
-    display: flex;
+    display: inline-block;
+    justify-items: right;
     justify-content: space-evenly;
-    vertical-align: top;
+    /* vertical-align: top; */
     height: 80px;
     line-height: 80px;
     font-size: 25px;
-    color: #333;
+    color: #000;
     font-weight: 800;
     
     
@@ -77,7 +78,6 @@ background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
 .headerli {
     list-style: none;
     display: inline-block;
-
 }
 
 
@@ -106,6 +106,7 @@ main{
     margin: auto;
     width: 650px;
     margin-top: 20px;
+    margin-bottom: 25px;
     border: 1px white solid;
     padding: 60px;
     font-family: 'Fredoka', sans-serif;
@@ -156,12 +157,7 @@ main{
     outline: none;
 }
 
-.edu{
-    display: inline;
-    list-style-type: none;
-    width: auto;
-    text-align: center;
-}
+
 
 .text {
     text-align: center;
@@ -169,10 +165,32 @@ main{
     font-weight: 800;
 
 }
+.container{
+    padding-top: 20px;
+    background-color: #FFDEE9;
+    margin-top: 20px;
+}
 
-table,
-th,
-td {
+.experiences{
+    display: grid;
+    grid-area: auto;
+    grid-template-columns: 300px ;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+hr{
+    width: 600px;
+}
+.edu{
+    width: auto;
+    margin-top: 10px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+
+table, th,td {
     border: 1px solid;
     border-collapse: collapse;
     padding: 20px;
@@ -221,6 +239,7 @@ td {
 .h2{
     text-align: center;
     font-size: 35px;
+    font-family: 'Fredoka One', cursive;
 }
 
 .table{
@@ -244,4 +263,4 @@ footer{
     font-family: 'Fredoka', sans-serif;
 
 }
-@media screen and (max-width: 750px) and (min-width:400px), screen and (orientation: portrait) {}
+@media screen and (max-width: 750px) and (min-width:400px), screen and (orientation: portrait){}
