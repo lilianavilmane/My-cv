@@ -21,7 +21,7 @@ body {
     font-family: 'Fredoka One', cursive;
     color: black;
     letter-spacing: 1px;
-    
+    display: inline;
    
 }
 
@@ -30,8 +30,10 @@ nav{
     padding-right: 8%;
     padding-left: 8%;
     font-family: 'Fredoka', sans-serif;
-    display: inline-flex;
-  
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 50px;
     
 }
 
@@ -79,12 +81,6 @@ header {
 
 }
 
-.headerli {
-    list-style: none;
-    
-    
- 
-}
 
 
 
