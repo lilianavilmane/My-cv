@@ -1,8 +1,9 @@
 @media screen and (max-width: 850px){
     
 }
-*{
+html{
     scroll-behavior: smooth;
+    
       
     
 }
@@ -304,4 +305,12 @@ footer{
     
 }
 
+.card{
+    width: 420px;
+    margin: auto;
+}
+
+.buttonweather{
+    width: 180px;
+}
 /* and (min-width:300px), screen and (orientation: portrait) */
