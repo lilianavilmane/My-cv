@@ -20,6 +20,7 @@ body {
     font-family: 'Fredoka One', cursive;
     color: black;
     letter-spacing: 1px;
+    
    
 }
 
@@ -28,6 +29,7 @@ nav{
     padding-right: 8%;
     padding-left: 8%;
     font-family: 'Fredoka', sans-serif;
+    display: inline-flex;
   
     
 }
@@ -37,9 +39,8 @@ nav{
     padding: 10px 25px;
     padding: 0px;
     margin: 0px;
-   display: flex;
-   justify-content: space-evenly;
-
+    
+    
     
     
     
@@ -62,7 +63,10 @@ header {
     line-height: 80px;
     font-size: 25px;
     color: #000;
-   
+    
+
+    
+    
     
    
 
@@ -76,7 +80,8 @@ header {
 
 .headerli {
     list-style: none;
-   
+    
+    
  
 }
 
@@ -282,6 +287,8 @@ hr{
 
 footer{
     background-color: #FFBBEC;
+    height: 300px;
+    
     
    
 }
@@ -291,8 +298,10 @@ footer{
     width: auto;
     text-align: center;
     margin-top: 100px;
+    padding: 55px;
     font-family: 'Fredoka', sans-serif;
-
+    
+    
 }
 
 /* and (min-width:300px), screen and (orientation: portrait) */
