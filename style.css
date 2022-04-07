@@ -305,8 +305,11 @@ footer{
 }
 
 .card{
+    display: inline-block;
+    text-align: center;
     width: 420px;
     margin: auto;
+    margin-left: 200px;
 }
 
 .buttonweather{
