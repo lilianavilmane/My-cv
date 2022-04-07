@@ -1,84 +1,143 @@
+@media screen and (max-width: 850px){
+  body{
+      background-color: white;
+  }
+  
+}
+html{
+    scroll-behavior: smooth;
+    
+      
+    
+}
 
-.nav-title{
-    font-size: 8vh;
+body {
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+
+.logo {
+    font-size: 35px;
+    font-family: 'Fredoka One', cursive;
     color: black;
-    padding: 15px;
-    display: flex;
-    vertical-align: top;
-    width: 50px;
-    height: 50px;
-    margin-right: 20px;
-    margin-top: 15px;
+    letter-spacing: 1px;
+    display: inline;
+   
+}
 
+nav{
+    padding-top: 35px;
+    padding-right: 8%;
+    padding-left: 8%;
+    font-family: 'Fredoka', sans-serif;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    
 }
 
 .nav ul {
-    padding: 0;
-    margin: 0;
-   display: flex;
-   justify-content: end;
-    text-align: right;
-    vertical-align: top;
+    font-family: 'Fredoka', sans-serif;
+    padding: 10px 25px;
+    padding: 0px;
+    margin: 0px;
     
     
-}
-header{
-   background-image: url(https://cdn.pixabay.com/photo/2016/04/06/10/08/pink-1311251__480.jpg);
-   display: block;
-   background-size: cover;
-   font-family: 'Work Sans', sans-serif;
+    
+    
+    
    
-  
-   
+
 }
 
-.nav-links{
-    margin-right: 20px;
-    display: flex;
-    vertical-align: top;
+
+
+header {
+    background-size: cover;
+    background-color: #A9C9FF;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+}
+
+.nav-links {
     height: 80px;
     line-height: 80px;
     font-size: 25px;
-    color:    #333;
-    font-weight: 800;
+    color: #000;
     
 
     
     
+    
+   
+
+    
+    
+
+
+
+
 }
-.headerli{
-    list-style: none;
-    display: inline-block;
-    
-}
-.nav-links:hover{
-    color: pink;
-
-}
 
 
 
-img{
-    border-radius: 1000px;
+
+
+img {
+    border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 220px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
+    border: 10px solid white;
     align-items: center;
     
-  
 }
-.btn{
+
+main{
+    margin-top: 0;
+}
+
+.aboutme{
+    display: grid;
+    justify-content: center;
+    font-size: 25px;
+    margin: auto;
+    width: 650px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border: 1px white solid;
+    padding: 60px;
+    font-family: 'Fredoka', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.experience {
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+   list-style-type: none;
+    width: auto;
+    margin-top: 100px;
+    font-family: 'Fredoka', sans-serif;
     
+}
+
+
+.btn {
     margin: 20px;
     width: 100px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
     font-size: 12px;
-    padding: 1.3em 3em;
+    padding: 15px 20px;
     text-transform: uppercase;
     letter-spacing: 2.5px;
     background-color: #fff;
@@ -86,35 +145,174 @@ img{
     font-weight: 500;
     border: none;
     border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);    
-    transition: all 0.3s ease 0s;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     outline: none;
 }
 
-.text{
+
+
+.text {
     text-align: center;
     font-size: 25px;
     font-weight: 800;
+    font-family: 'Fredoka', sans-serif;
+
+}
+.container{
+    padding: 30px;
+    background-color: #FFDEE9;
     
 }
 
-table , th, td{
-    border: 2px solid;
-    border-collapse: collapse;
-    padding: 20px;
-    width: 150px;
-    margin-top: 20px;
+.experiences{
+    /* display: grid;
+    grid-area: auto;
+    grid-template-columns: 300px ; */
+    text-align: center;
+    margin-right: 15px;
+}
+
+hr{
+    width: 400px;
+    
+}
+.edu{
+    width: auto;
+    margin-top: 10px;
+    font-family: 'Fredoka', sans-serif;
+    
+}
+
+.skill{
+      width: 500px;
+     margin-left: auto;
+     margin-right: auto;
+      background-color: rgb(231, 231, 231);
+      border-radius: 20px;
+}
+
+.skills{
+   
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.html, .js , .css, .git,.php{
+      text-align: center;
+      font-weight: bolder;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      color: white;
+      border-radius: 20px;
+}
+
+.html{
+    width: 75%;
+    background-color: #FFBBEC;
+}
+.css{
+    width: 70%;
+    background-color: #FFBBEC;
+}
+.js{
+    width: 50%;
+    background-color: #FFBBEC;
+}
+.git{
+    width: 45%;
+    background-color: #FFBBEC;
+}
+
+.php{
+    width: 15%;
+    background-color: #FFBBEC;
+}
+
+
+
+
+.icon {
+    text-align: center;
+    font-size: 1.5em;
+    color: #000;
+    word-spacing: 10px;
+    text-decoration: none;
+    padding-bottom: 10px;
+
+}
+
+/* .material-icons {
+    size: 15px;
+    float: right;
+} */
+
+.job{
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    
+
+}
+
+.border{
+    
+    height: 350px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 100px; 
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+    
+
+}
+
+.h2{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.table{
+   
+    margin-left: 50px;
+    margin: auto;
+    width: auto;
+    
+}
+
+footer{
+    background-color: #FFBBEC;
+    height: 300px;
+    
     
    
 }
-
-
-.icon{
+.info{
+    font-size: 25px;
+    margin: auto;
+    width: auto;
     text-align: center;
-    font-size: large;
+    margin-top: 100px;
+    padding: 55px;
+    font-family: 'Fredoka', sans-serif;
+    
+    
 }
-.material-icons {
-    size: 15px;
-    float: right;
+
+.card{
+    display: inline-block;
+    text-align: center;
+    width: 420px;
+    margin: auto;
+    margin-left: 200px;
 }
+
+.buttonweather{
+    width: 180px;
+}
+/* and (min-width:300px), screen and (orientation: portrait) */
